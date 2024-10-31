@@ -10,6 +10,7 @@ const port = 3000;
 app.use("/user", userRoute);
 app.use("/mobil", mobilRoute);
 app.use("/hewan", hewanRoute);
+
 app.get("/", (req, res) => {
   console.log(["GET ROUTE"]);
   res.send("Selamat datang Prajurit");
